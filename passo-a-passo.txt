@@ -1,0 +1,13 @@
+Passo a passo para a execução dos testes:
+
+
+1. Clone o projeto no github e então abra o mesmo no Visual Studio 2019 ou superior.
+
+2. Uma vez que o projeto esteja aberto, você irá realizar a compilação do mesmo em "Compilação" e então clicando em Compilar Solução
+
+2.5 No caso de erros relacionados a pacotes Nu-Get, deve-se ir no "Gerenciador de Soluções" e então clicar com o botão direito na solução e selecionar a opção de "Restaurar pacotes NuGet" e então após a restauração, clicar em "Compilação" e clicar em "Limpar Solução". Uma vez que a solução esteja com os NuGets restaurados, e esteja devidamente limpa, você pode realizar a compilação de novo seguindo o passo 2
+
+3. Uma vez que a solução tenha sido compilada com sucesso sem erros, você pode ir em "Teste" e abrir o "Gerenciador de Testes" para realizar a visualização dos testes, você pode clicar para expandir na flexa a esquerda do nome da solução para abrir os testes um a um.
+
+4. Para executar o teste, você pode clicar com o botão direito na solução, ou no teste específico, e clicar em "Executar", ou então em "Depurar" caso queira ver o funcionamento passo-a-passo do mesmo, porém antes sendo necessário adicionar um breakpoint no código apertando a técla F9 a partir de uma linha de código, então, uma vez que o breakpoint foi colocado, a execução irá linha por linha ao apertar a tecla F10 para passar para a linha seguinte.
+
